@@ -71,7 +71,6 @@ with open(file_to_load) as election_data:
             
             # 4b: Add the existing county to the list of counties.
             county_list.append(county_name)
-            print(county_list)
 
             # 4c: Begin tracking the county's vote count.
             county_dict[county_name] = 0   
